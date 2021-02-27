@@ -1,3 +1,8 @@
+Titulo = """
+WELCOME!! THIS PROGRAM IS A PALINDROME CHECKER. BY ADDING A WORD, IT WILL TELL YOU IF IT IS CORRECT OR WRONG!
+
+"""
+print(Titulo)
 
 def palindrome(word):
     word = word.replace(' ', '').lower()
@@ -13,9 +18,9 @@ def run():
     word = input("Please, Write a word: ")
     ispalindrome = palindrome(word)
     if ispalindrome == True:
-        print("You're right!")
+        print("You're right! That's a palindrome.")
     else:
-        print("You are wrong.")
+        print("Sorry! That's not a palindrome.")
 
 
 if __name__ == '__main__':
